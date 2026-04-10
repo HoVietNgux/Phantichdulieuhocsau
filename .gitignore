@@ -1,0 +1,21 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+
+archive (1)/
+checkpoints/*
+!checkpoints/README.md
+outputs/
+data/*
+!data/README.md
+!data/user_real_photos/
+data/user_real_photos/*
+!data/user_real_photos/README.md
+
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
